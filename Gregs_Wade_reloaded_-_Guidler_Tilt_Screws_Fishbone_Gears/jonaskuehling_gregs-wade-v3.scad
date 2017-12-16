@@ -43,7 +43,7 @@ less_idler_bolt_dist = 0;
 
 
 ////////// RENDER EXTRUDER //////////////////////////////////////////////////////////////
-wade(hotend_mount=groovemount, legacy_mount=false);
+wade(hotend_mount=malcolm_hotend_mount, legacy_mount=false);
 //wade(hotend_mount=reprapfaborg_mount, legacy_mount=false);
 //wade(hotend_mount=jhead_mount, legacy_mount=false);
 //wade(hotend_mount=arcol_mount, legacy_mount=false);
@@ -168,9 +168,9 @@ hole_for_608=22.6;
 
 block_top_right=[wade_block_width,wade_block_height];
 
-layer_thickness=0.25;
-filament_feed_hole_d=3.5;
-filament_diameter=3;
+layer_thickness=0.20;
+filament_feed_hole_d=4.4;
+filament_diameter=1.75;
 filament_feed_hole_offset=filament_diameter+1.5;
 idler_nut_trap_depth=7.3;
 idler_nut_thickness=3.7;
